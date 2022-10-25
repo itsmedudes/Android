@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,28 +11,36 @@
     <EditText
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:hint="Birth Year"
+        android:hint="@string/oldYearHint"
         android:inputType="number"
-        android:id="@+id/birthYear" />
+        android:id="@+id/birthYear"
+        />
 
     <EditText
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:hint="Current Year"
-        android:id="@+id/newYear" />
+        android:hint="@string/newYearHint"
+        android:id="@+id/newYear"
+         />
 
     <Button
         android:id="@+id/findYear"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Find The Year" />
+        android:text="@string/Search"
+        android:layout_marginTop="10dp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/result"
-        android:text="0"
+        android:text="@string/result"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
         />
 
 

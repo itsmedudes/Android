@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Age Calculator</string>
+    <string name="oldYearHint">Birth Year</string>
+    <string name="newYearHint">Current Year</string>
+    <string name="result">0</string>
+    <string name="Search">Find The Year</string>
+
 </resources>
