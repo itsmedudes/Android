@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         val obj = Dice(6)
         val rollAns : Int = obj.roll()
         val resultImageView: ImageView = findViewById(R.id.imageView)
-        resultImageView.contentDescription =rollAns.toString()
+        resultImageView.setImageResource(R.drawable.dice_1)
         val textView: TextView = findViewById(R.id.roll_the_dice)
         textView.text = rollAns.toString()
         when (rollAns) {
